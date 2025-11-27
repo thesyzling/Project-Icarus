@@ -1,0 +1,1 @@
+/home/bars/icarus_ws/src/ros2_control_demos/example_6/description/launch/view_robot.launch.py

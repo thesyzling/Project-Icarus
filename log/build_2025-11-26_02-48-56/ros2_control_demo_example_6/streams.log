@@ -1,0 +1,86 @@
+[0.027s] Invoking command in '/home/bars/icarus_ws/build/ros2_control_demo_example_6': CMAKE_PREFIX_PATH=/home/bars/icarus_ws/install/ros2_control_demo_description:/home/bars/icarus_ws/install/ros2_control_demos:/home/bars/icarus_ws/install/ros2_control_demo_example_9:/home/bars/icarus_ws/install/ros2_control_demo_example_8:/home/bars/icarus_ws/install/ros2_control_demo_example_7:/home/bars/icarus_ws/install/ros2_control_demo_example_6:/home/bars/icarus_ws/install/ros2_control_demo_example_15:/home/bars/icarus_ws/install/ros2_control_demo_example_13:/home/bars/icarus_ws/install/ros2_control_demo_example_5:/home/bars/icarus_ws/install/ros2_control_demo_example_4:/home/bars/icarus_ws/install/ros2_control_demo_example_3:/home/bars/icarus_ws/install/ros2_control_demo_example_2:/home/bars/icarus_ws/install/ros2_control_demo_example_14:/home/bars/icarus_ws/install/ros2_control_demo_example_12:/home/bars/icarus_ws/install/ros2_control_demo_example_11:/home/bars/icarus_ws/install/ros2_control_demo_example_10:/home/bars/icarus_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake /home/bars/icarus_ws/src/ros2_control_demos/example_6 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bars/icarus_ws/install/ros2_control_demo_example_6
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.167s] -- Detecting CXX compile features
+[0.167s] -- Detecting CXX compile features - done
+[0.171s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.365s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.386s] -- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.426s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.440s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.593s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.646s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.648s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.660s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.662s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.667s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] -- Looking for C++ include pthread.h
+[0.779s] -- Looking for C++ include pthread.h - found
+[0.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.900s] -- Found Threads: TRUE  
+[0.956s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.194s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.200s] -- Found launch_testing_ament_cmake: 1.0.13 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.202s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.221s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.227s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.227s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.227s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.251s] -- Found PythonExtra: .so  
+[1.319s] -- Configuring done
+[1.334s] -- Generating done
+[1.339s] -- Build files have been written to: /home/bars/icarus_ws/build/ros2_control_demo_example_6
+[1.351s] Invoked command in '/home/bars/icarus_ws/build/ros2_control_demo_example_6' returned '0': CMAKE_PREFIX_PATH=/home/bars/icarus_ws/install/ros2_control_demo_description:/home/bars/icarus_ws/install/ros2_control_demos:/home/bars/icarus_ws/install/ros2_control_demo_example_9:/home/bars/icarus_ws/install/ros2_control_demo_example_8:/home/bars/icarus_ws/install/ros2_control_demo_example_7:/home/bars/icarus_ws/install/ros2_control_demo_example_6:/home/bars/icarus_ws/install/ros2_control_demo_example_15:/home/bars/icarus_ws/install/ros2_control_demo_example_13:/home/bars/icarus_ws/install/ros2_control_demo_example_5:/home/bars/icarus_ws/install/ros2_control_demo_example_4:/home/bars/icarus_ws/install/ros2_control_demo_example_3:/home/bars/icarus_ws/install/ros2_control_demo_example_2:/home/bars/icarus_ws/install/ros2_control_demo_example_14:/home/bars/icarus_ws/install/ros2_control_demo_example_12:/home/bars/icarus_ws/install/ros2_control_demo_example_11:/home/bars/icarus_ws/install/ros2_control_demo_example_10:/home/bars/icarus_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake /home/bars/icarus_ws/src/ros2_control_demos/example_6 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bars/icarus_ws/install/ros2_control_demo_example_6
+[1.352s] Invoking command in '/home/bars/icarus_ws/build/ros2_control_demo_example_6': CMAKE_PREFIX_PATH=/home/bars/icarus_ws/install/ros2_control_demo_description:/home/bars/icarus_ws/install/ros2_control_demos:/home/bars/icarus_ws/install/ros2_control_demo_example_9:/home/bars/icarus_ws/install/ros2_control_demo_example_8:/home/bars/icarus_ws/install/ros2_control_demo_example_7:/home/bars/icarus_ws/install/ros2_control_demo_example_6:/home/bars/icarus_ws/install/ros2_control_demo_example_15:/home/bars/icarus_ws/install/ros2_control_demo_example_13:/home/bars/icarus_ws/install/ros2_control_demo_example_5:/home/bars/icarus_ws/install/ros2_control_demo_example_4:/home/bars/icarus_ws/install/ros2_control_demo_example_3:/home/bars/icarus_ws/install/ros2_control_demo_example_2:/home/bars/icarus_ws/install/ros2_control_demo_example_14:/home/bars/icarus_ws/install/ros2_control_demo_example_12:/home/bars/icarus_ws/install/ros2_control_demo_example_11:/home/bars/icarus_ws/install/ros2_control_demo_example_10:/home/bars/icarus_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/bars/icarus_ws/build/ros2_control_demo_example_6 -- -j20 -l20
+[1.394s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o[0m
+[6.738s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_6.so[0m
+[7.011s] [100%] Built target ros2_control_demo_example_6
+[7.025s] Invoked command in '/home/bars/icarus_ws/build/ros2_control_demo_example_6' returned '0': CMAKE_PREFIX_PATH=/home/bars/icarus_ws/install/ros2_control_demo_description:/home/bars/icarus_ws/install/ros2_control_demos:/home/bars/icarus_ws/install/ros2_control_demo_example_9:/home/bars/icarus_ws/install/ros2_control_demo_example_8:/home/bars/icarus_ws/install/ros2_control_demo_example_7:/home/bars/icarus_ws/install/ros2_control_demo_example_6:/home/bars/icarus_ws/install/ros2_control_demo_example_15:/home/bars/icarus_ws/install/ros2_control_demo_example_13:/home/bars/icarus_ws/install/ros2_control_demo_example_5:/home/bars/icarus_ws/install/ros2_control_demo_example_4:/home/bars/icarus_ws/install/ros2_control_demo_example_3:/home/bars/icarus_ws/install/ros2_control_demo_example_2:/home/bars/icarus_ws/install/ros2_control_demo_example_14:/home/bars/icarus_ws/install/ros2_control_demo_example_12:/home/bars/icarus_ws/install/ros2_control_demo_example_11:/home/bars/icarus_ws/install/ros2_control_demo_example_10:/home/bars/icarus_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/bars/icarus_ws/build/ros2_control_demo_example_6 -- -j20 -l20
+[7.027s] Invoking command in '/home/bars/icarus_ws/build/ros2_control_demo_example_6': CMAKE_PREFIX_PATH=/home/bars/icarus_ws/install/ros2_control_demo_description:/home/bars/icarus_ws/install/ros2_control_demos:/home/bars/icarus_ws/install/ros2_control_demo_example_9:/home/bars/icarus_ws/install/ros2_control_demo_example_8:/home/bars/icarus_ws/install/ros2_control_demo_example_7:/home/bars/icarus_ws/install/ros2_control_demo_example_6:/home/bars/icarus_ws/install/ros2_control_demo_example_15:/home/bars/icarus_ws/install/ros2_control_demo_example_13:/home/bars/icarus_ws/install/ros2_control_demo_example_5:/home/bars/icarus_ws/install/ros2_control_demo_example_4:/home/bars/icarus_ws/install/ros2_control_demo_example_3:/home/bars/icarus_ws/install/ros2_control_demo_example_2:/home/bars/icarus_ws/install/ros2_control_demo_example_14:/home/bars/icarus_ws/install/ros2_control_demo_example_12:/home/bars/icarus_ws/install/ros2_control_demo_example_11:/home/bars/icarus_ws/install/ros2_control_demo_example_10:/home/bars/icarus_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/bars/icarus_ws/build/ros2_control_demo_example_6
+[7.035s] -- Install configuration: ""
+[7.036s] -- Execute custom install script
+[7.036s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6//ros2_control_demo_example_6.xml
+[7.046s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/include/ros2_control_demo_example_6/ros2_control_demo_example_6/rrbot_actuator.hpp
+[7.057s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/view_robot.launch.py
+[7.067s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/ros2_control/rrbot_modular_actuators.ros2_control.xacro
+[7.079s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/urdf/rrbot_modular_actuators.urdf.xacro
+[7.089s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/rrbot_modular_actuators.launch.py
+[7.100s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/test_forward_position_controller.launch.py
+[7.111s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_forward_position_publisher.yaml
+[7.124s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_modular_actuators.yaml
+[7.137s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.sh
+[7.149s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.dsv
+[7.157s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_6
+[7.165s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_6
+[7.176s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.sh
+[7.187s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.dsv
+[7.195s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.sh
+[7.203s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.dsv
+[7.212s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.bash
+[7.219s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.sh
+[7.228s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.zsh
+[7.239s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.dsv
+[7.249s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.dsv
+[7.259s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/packages/ros2_control_demo_example_6
+[7.268s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_6
+[7.277s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_targets-extras.cmake
+[7.285s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.298s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config.cmake
+[7.308s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config-version.cmake
+[7.319s] -- Symlinking: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.xml
+[7.329s] -- Installing: /home/bars/icarus_ws/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so
+[7.329s] -- Set runtime path of "/home/bars/icarus_ws/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so" to ""
+[7.330s] -- Installing: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export.cmake
+[7.330s] -- Installing: /home/bars/icarus_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export-noconfig.cmake
+[7.409s] Invoked command in '/home/bars/icarus_ws/build/ros2_control_demo_example_6' returned '0': CMAKE_PREFIX_PATH=/home/bars/icarus_ws/install/ros2_control_demo_description:/home/bars/icarus_ws/install/ros2_control_demos:/home/bars/icarus_ws/install/ros2_control_demo_example_9:/home/bars/icarus_ws/install/ros2_control_demo_example_8:/home/bars/icarus_ws/install/ros2_control_demo_example_7:/home/bars/icarus_ws/install/ros2_control_demo_example_6:/home/bars/icarus_ws/install/ros2_control_demo_example_15:/home/bars/icarus_ws/install/ros2_control_demo_example_13:/home/bars/icarus_ws/install/ros2_control_demo_example_5:/home/bars/icarus_ws/install/ros2_control_demo_example_4:/home/bars/icarus_ws/install/ros2_control_demo_example_3:/home/bars/icarus_ws/install/ros2_control_demo_example_2:/home/bars/icarus_ws/install/ros2_control_demo_example_14:/home/bars/icarus_ws/install/ros2_control_demo_example_12:/home/bars/icarus_ws/install/ros2_control_demo_example_11:/home/bars/icarus_ws/install/ros2_control_demo_example_10:/home/bars/icarus_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/bars/icarus_ws/build/ros2_control_demo_example_6

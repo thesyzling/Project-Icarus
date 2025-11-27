@@ -1,0 +1,246 @@
+[0.006s] Invoking command in '/home/bars/icarus_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bars/icarus_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bars/icarus_ws/install/ur_description
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.212s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.214s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.386s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.453s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.917s] -- Configuring done
+[0.918s] -- Generating done
+[0.919s] -- Build files have been written to: /home/bars/icarus_ws/build/ur_description
+[0.923s] Invoked command in '/home/bars/icarus_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bars/icarus_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bars/icarus_ws/install/ur_description
+[0.927s] Invoking command in '/home/bars/icarus_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bars/icarus_ws/build/ur_description -- -j20 -l20
+[2.194s] Invoked command in '/home/bars/icarus_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bars/icarus_ws/build/ur_description -- -j20 -l20
+[2.196s] Invoking command in '/home/bars/icarus_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bars/icarus_ws/build/ur_description
+[2.251s] -- Install configuration: ""
+[2.252s] -- Execute custom install script
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.252s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.254s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.261s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.267s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[2.276s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[2.283s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[2.290s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[2.299s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[2.306s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[2.311s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[2.317s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[2.324s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.330s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.338s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.345s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.352s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur18/default_kinematics.yaml
+[2.358s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur18/joint_limits.yaml
+[2.364s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur18/physical_parameters.yaml
+[2.375s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur18/visual_parameters.yaml
+[2.379s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.386s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.394s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.403s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.410s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.423s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.429s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.440s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.443s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.451s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.458s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.466s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[2.475s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.483s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.501s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.509s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.518s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.528s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.537s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.545s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.553s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.562s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.572s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.581s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.590s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[2.599s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[2.612s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[2.618s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[2.628s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur8long/default_kinematics.yaml
+[2.638s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur8long/joint_limits.yaml
+[2.647s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur8long/physical_parameters.yaml
+[2.661s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/config/ur8long/visual_parameters.yaml
+[2.668s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.679s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.690s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.702s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.710s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.720s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.732s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.742s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[2.753s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[2.764s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[2.774s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[2.784s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[2.796s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[2.806s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[2.821s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[2.827s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[2.836s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[2.846s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[2.856s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[2.866s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[2.877s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[2.888s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[2.900s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[2.913s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[2.925s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[2.936s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[2.951s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[2.959s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[2.973s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[2.985s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[2.998s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[3.011s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[3.033s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[3.064s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[3.082s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[3.102s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[3.113s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[3.135s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[3.148s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[3.163s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[3.172s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[3.197s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[3.210s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[3.223s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[3.234s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[3.244s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[3.258s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[3.269s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[3.280s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[3.291s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur18/LICENSE.txt
+[3.303s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur18/collision/forearm.stl
+[3.313s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur18/collision/upperarm.stl
+[3.325s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg
+[3.334s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur18/visual/forearm.dae
+[3.347s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur18/visual/upperarm.dae
+[3.359s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[3.370s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[3.403s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[3.436s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[3.445s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[3.463s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[3.479s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[3.494s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[3.503s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[3.514s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[3.521s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[3.527s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[3.538s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[3.548s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[3.562s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[3.577s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[3.588s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[3.598s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[3.609s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[3.619s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[3.628s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[3.638s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[3.648s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[3.659s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[3.668s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[3.681s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[3.692s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[3.702s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[3.714s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[3.726s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[3.740s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[3.755s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[3.771s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[3.782s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[3.794s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[3.809s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[3.831s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[3.846s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[3.863s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[3.877s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[3.887s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[3.901s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[3.919s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[3.928s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[3.941s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[3.952s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[3.963s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[3.973s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[3.984s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[3.994s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[4.004s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[4.014s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[4.026s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[4.037s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[4.047s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[4.059s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[4.071s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[4.082s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[4.094s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[4.104s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[4.115s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[4.127s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[4.138s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[4.150s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[4.161s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[4.171s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[4.182s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[4.193s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[4.204s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[4.214s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[4.227s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[4.234s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[4.245s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[4.255s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[4.266s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[4.275s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[4.285s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[4.295s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[4.307s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur8long/LICENSE.txt
+[4.321s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur8long/collision/forearm.stl
+[4.336s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur8long/collision/upperarm.stl
+[4.350s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+[4.358s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/forearm.dae
+[4.367s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/upperarm.dae
+[4.379s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[4.391s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[4.401s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[4.413s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[4.425s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[4.434s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[4.449s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[4.457s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[4.471s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[4.481s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[4.490s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[4.500s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[4.510s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/environment/path.sh
+[4.521s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/environment/path.dsv
+[4.534s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/local_setup.bash
+[4.545s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/local_setup.sh
+[4.558s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/local_setup.zsh
+[4.569s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/local_setup.dsv
+[4.579s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/package.dsv
+[4.591s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[4.603s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[4.613s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[4.624s] -- Symlinking: /home/bars/icarus_ws/install/ur_description/share/ur_description/package.xml
+[4.637s] Invoked command in '/home/bars/icarus_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bars/icarus_ws/build/ur_description
