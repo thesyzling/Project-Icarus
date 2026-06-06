@@ -1,0 +1,13 @@
+# ==========================================
+# ICARUS PROJECT - PYTHON DEPENDENCIES
+# ==========================================
+
+# AI & Computer Vision
+ultralytics         # YOLOv8 Object Detection
+opencv-python       # Image Processing (cv2)
+
+# System & Math
+numpy<2             # CRITICAL: Must be < 2.0 to avoid breaking ROS 2 Humble cv_bridge
+
+# Cognitive Engine (EVE)
+google-generativeai # Gemini API Interface
