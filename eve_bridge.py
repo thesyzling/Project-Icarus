@@ -12,7 +12,7 @@ import threading
 import re
 
 # --- EVE v8.0 (GÖREN UR5) ---
-API_KEY = "AIzaSyAKb83rdTQ1d60CQyygozJPGLH25ESbQQE"
+API_KEY = "***"
 
 TOPIC_ARM = '/joint_trajectory_controller/joint_trajectory'
 TOPIC_CAMERA = '/wrist_camera/image_raw'
